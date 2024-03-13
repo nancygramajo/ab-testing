@@ -45,7 +45,14 @@
                             <path d="M8 7a.5.5 0 0 1 .5.5V9H10a.5.5 0 0 1 0 1H8.5v1.5a.5.5 0 0 1-1 0V10H6a.5.5 0 0 1 0-1h1.5V7.5A.5.5 0 0 1 8 7"/>
                             <path d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5M1 4v10a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V4z"/>
                         </svg>
-                        <p class="current-selected-section-text">Appointments</p>
+                        <p class="current-selected-section-text">Make an Appointment</p>
+                    </span>
+                    <span class="side-nav-section-row">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#868686" class="bi bi-calendar-plus" viewBox="0 0 16 16">
+                            <path d="M8 7a.5.5 0 0 1 .5.5V9H10a.5.5 0 0 1 0 1H8.5v1.5a.5.5 0 0 1-1 0V10H6a.5.5 0 0 1 0-1h1.5V7.5A.5.5 0 0 1 8 7"/>
+                            <path d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5M1 4v10a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V4z"/>
+                        </svg>
+                        <p class="current-selected-section-text">My Appointments</p>
                     </span>
                     <span class="side-nav-section-row">
                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#868686" class="bi bi-envelope" viewBox="0 0 16 16">
@@ -146,10 +153,10 @@
                     </div>
 
                     <div class="appointment-buttons">
-                        <input type="button" value="See Appointment" class="defunct-button" />
                         <input type="button" value="Schedule Appointment" class="defunct-button" />
                     </div>
                 </div>
+                <div class="divider"></div>
 
                 <div class="appointment-row">
                     <div class="appointment-date">
@@ -165,10 +172,10 @@
                     </div>
 
                     <div class="appointment-buttons">
-                        <input type="button" value="See Appointment" class="defunct-button" />
                         <input type="button" value="Schedule Appointment" class="defunct-button" />
                     </div>
                 </div>
+                <div class="divider"></div>
 
                 <div class="appointment-row">
                     <div class="appointment-date">
@@ -184,29 +191,10 @@
                     </div>
 
                     <div class="appointment-buttons">
-                        <input type="button" value="See Appointment" class="defunct-button" />
                         <input type="button" value="Schedule Appointment" class="defunct-button" />
                     </div>
                 </div>
-
-                <div class="appointment-row">
-                    <div class="appointment-date">
-                        <p class="date-text">APR</p>
-                        <p class="date-text">26</p>
-                        <p class="date-text">2024</p>
-                    </div>
-
-                    <div class="appointment-info">
-                        <p class="appointment-title">Primary Care Visit</p>
-                        <p class="appointment-text">Jodie Foster, MD</p>
-                        <p class="appointment-text">Morristown Medical Center</p>
-                    </div>
-
-                    <div class="appointment-buttons">
-                        <input type="button" value="See Appointment" class="defunct-button" />
-                        <input type="button" value="Schedule Appointment" class="defunct-button" />
-                    </div>
-                </div>
+                <div class="divider"></div>
 
                 <div class="appointment-row">
                     <div class="appointment-date">
@@ -222,10 +210,10 @@
                     </div>
 
                     <div class="appointment-buttons">
-                        <input type="button" onclick="fail(event)" value="See Appointment" class="defunct-button" />
                         <input type="button" onclick="fail(event)" value="Schedule Appointment" class="defunct-button" />
                     </div>
                 </div>
+                <div class="divider"></div>
 
                 <div class="appointment-row">
                     <div class="appointment-date">
@@ -250,10 +238,10 @@
                         <button autofocus onclick="suc(event)" class="dialog-button">OK</button>
                     </dialog>
                     <div class="appointment-buttons">
-                        <input type="button" onclick="fail(event)" value="See Appointment" class="defunct-button" />
                         <input type="button" value="Schedule Appointment" class="working-button" id="working-button" />
                     </div>
                 </div>
+                <div class="divider"></div>
 
                 <div class="appointment-row">
                     <div class="appointment-date">
@@ -269,7 +257,25 @@
                     </div>
 
                     <div class="appointment-buttons">
-                        <input type="button" value="See Appointment" class="defunct-button" />
+                        <input type="button" value="Schedule Appointment" class="defunct-button" />
+                    </div>
+                </div>
+                <div class="divider"></div>
+
+                <div class="appointment-row">
+                    <div class="appointment-date">
+                        <p class="date-text">APR</p>
+                        <p class="date-text">26</p>
+                        <p class="date-text">2024</p>
+                    </div>
+
+                    <div class="appointment-info">
+                        <p class="appointment-title">Primary Care Visit</p>
+                        <p class="appointment-text">Jodie Foster, MD</p>
+                        <p class="appointment-text">Morristown Medical Center</p>
+                    </div>
+
+                    <div class="appointment-buttons">
                         <input type="button" value="Schedule Appointment" class="defunct-button" />
                     </div>
                 </div>
